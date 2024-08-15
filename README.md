@@ -39,15 +39,20 @@ The model is trained for ~20 epochs
 
 
 ## Conclusions
-### First Model Findings
-Trining Accuracy: 66.89% -> Model is performing reasonably well on the training data.however, improvement can be done.
-Validation Accuracy: 57.94% -> Model is not up to the mark on validation set compare to training set.This is case of overfitting.
-Trining Loss: 0.8864 -> More improvement can be done.
-Validation Loss: 2.1172 -> Overfitting is observed.- Conclusion 2 from the analysis
+### First Model Findings (Without dropout)
+- Trining Accuracy: 66.89% -> Model is performing reasonably well on the training data.however, improvement can be done.
+- Validation Accuracy: 57.94% -> Model is not up to the mark on validation set compare to training set.This is case of overfitting.
+- Trining Loss: 0.8864 -> More improvement can be done.
+- Validation Loss: 2.1172 -> Overfitting is observed.- Conclusion 2 from the analysis
 
-### Second Model Findings
+### Second Model Findings (Dropout and Regularization techniques used)
+- Trining Accuracy: 49.77% -> Model is performing reasonably well on the training data.however, improvement can be done.
+- Validation Accuracy: 47.65% -> Both validation accuracy and trainning accuracy are very much close, so this is perfectly fine.
+- Trining Loss: 1.48 -> More improvement can be done.
+- Validation Loss: 1.53 -> no overfitting but accuracy to be improved.
 
-### Third Model Findings
+### Third Model Findings (Class Imbalance using augumentor pipeline)
+
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
