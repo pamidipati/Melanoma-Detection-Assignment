@@ -87,6 +87,6 @@ Folowing libraries are used
 
 
 ## Contact
-Created by [@pamidipati] - feel free to contact me!
+Created by @pamidipati - feel free to contact me!
 
 
